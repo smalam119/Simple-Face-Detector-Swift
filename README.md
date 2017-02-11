@@ -1,5 +1,5 @@
 # Simple-Face-Detector-Swift
-A very basic face detection app using swift
+A very basic face detection app using swift Core Image library
  <br> 
   <br> 
    <br> 

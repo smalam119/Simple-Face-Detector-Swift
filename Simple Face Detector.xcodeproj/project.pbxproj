@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		713322CD1E178B3E003DBB62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713322CC1E178B3E003DBB62 /* AppDelegate.swift */; };
 		713322CF1E178B3E003DBB62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713322CE1E178B3E003DBB62 /* ViewController.swift */; };
-		713322D21E178B3E003DBB62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713322D01E178B3E003DBB62 /* Main.storyboard */; };
 		713322D51E178B3E003DBB62 /* Simple_Face_Detector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 713322D31E178B3E003DBB62 /* Simple_Face_Detector.xcdatamodeld */; };
 		713322D71E178B3E003DBB62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713322D61E178B3E003DBB62 /* Assets.xcassets */; };
 		713322DA1E178B3E003DBB62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713322D81E178B3E003DBB62 /* LaunchScreen.storyboard */; };
 		713322E51E178B3E003DBB62 /* Simple_Face_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713322E41E178B3E003DBB62 /* Simple_Face_DetectorTests.swift */; };
 		713322F01E178B3E003DBB62 /* Simple_Face_DetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713322EF1E178B3E003DBB62 /* Simple_Face_DetectorUITests.swift */; };
+		713322FE1E17904B003DBB62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713322FD1E17904B003DBB62 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		713322C91E178B3E003DBB62 /* Simple Face Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Face Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		713322CC1E178B3E003DBB62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		713322CE1E178B3E003DBB62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		713322D11E178B3E003DBB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		713322D41E178B3E003DBB62 /* Simple_Face_Detector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Simple_Face_Detector.xcdatamodel; sourceTree = "<group>"; };
 		713322D61E178B3E003DBB62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		713322D91E178B3E003DBB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		713322EB1E178B3E003DBB62 /* Simple Face DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple Face DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		713322EF1E178B3E003DBB62 /* Simple_Face_DetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_Face_DetectorUITests.swift; sourceTree = "<group>"; };
 		713322F11E178B3E003DBB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713322FD1E17904B003DBB62 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				713322CC1E178B3E003DBB62 /* AppDelegate.swift */,
 				713322CE1E178B3E003DBB62 /* ViewController.swift */,
-				713322D01E178B3E003DBB62 /* Main.storyboard */,
+				713322FD1E17904B003DBB62 /* Main.storyboard */,
 				713322D61E178B3E003DBB62 /* Assets.xcassets */,
 				713322D81E178B3E003DBB62 /* LaunchScreen.storyboard */,
 				713322DB1E178B3E003DBB62 /* Info.plist */,
@@ -238,9 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713322FE1E17904B003DBB62 /* Main.storyboard in Resources */,
 				713322DA1E178B3E003DBB62 /* LaunchScreen.storyboard in Resources */,
 				713322D71E178B3E003DBB62 /* Assets.xcassets in Resources */,
-				713322D21E178B3E003DBB62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +303,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		713322D01E178B3E003DBB62 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				713322D11E178B3E003DBB62 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		713322D81E178B3E003DBB62 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
